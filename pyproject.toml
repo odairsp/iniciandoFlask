@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "iniciandoflask"
+version = "0.1.0"
+description = ""
+authors = ["Odair H <odair.sp@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
